@@ -1,0 +1,12 @@
+[project]
+name = "aiagentecosystem"
+version = "0.1.0"
+description = "A application where an agentic ecosystem interacts"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "google-generativeai>=0.8.4",
+    "openai>=1.73.0",
+    "pydantic-ai>=0.0.55",
+    "python-dotenv>=1.1.0",
+]
